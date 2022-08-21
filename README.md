@@ -3,6 +3,5 @@
 ### Instalação:
 Para fazer uso do Projeto, deve-se instalar as dependências 'express' e 'express-handlebars' utilizando o NPM do Node
 
-
 ### Autores:
 - Raí Rafael Santos Silva
