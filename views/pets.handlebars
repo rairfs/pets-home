@@ -1,0 +1,17 @@
+<h1>Pets no Hotel:</h1>
+<div class="pets-container">
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nome do Dono</th>
+            <th>Nome do Pet</th>
+        </tr>
+        {{#each pets}}
+            <tr>
+                <td>{{this.id}}</td>
+                <td>{{this.nomeDono}}</td>
+                <td><a href="/pets/{{this.id}}">{{this.nomePet}}</a></td>
+            </tr>
+        {{/each}}
+    </table>
+</div>
