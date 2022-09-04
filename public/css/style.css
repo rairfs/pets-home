@@ -3,95 +3,50 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none
-}
-
-a {
-    color: black;
-}
-
-.container-navbar {
-    background-color: rgb(124, 183, 250);
-    padding: 10px;
-}
-
-.navbar ul {
-    display: flex;
-    flex-direction: row;
-}
-
-.nav-item {
     list-style: none;
-    border-radius: 5px;
-    padding: 10px;
-    text-decoration: none;
 }
 
-.nav-item a {
-    color: black;
-}
-
-.items {
+.items-table{
+    margin-top: 1vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
     gap: 10px;
-    
 }
 
-tr:nth-child(even) {
-    background:rgb(124, 183, 250);
-    border: none;
-  }
-
-tr:nth-child(odd) {
-    background:rgb(175, 199, 228);
-    border: none;
-}
-
-.pets-container th {
-    background:rgb(124, 183, 250);
-    text-align: left;
-}
-
-.pet-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.pet-container ul {
+.conteudo-unico {
+    margin-top: 1vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    list-style: none;
-    background-color: rgb(124, 183, 250);
-    width: 50vh;
-    height: 15vh;
-    border-radius: 10px;
     align-items: center;
+    gap: 10px;
 }
 
-.pet-container li {
-    text-align: center;
-}
-
-.btn {
+.tabela-titulo {
     display: flex;
-    margin: 5 auto;
-    width: 10ch;
-    height: 5ch;
-    border-radius: 5px;
-}
-
-.btn.btn-voltar{
-    text-align: center;
-    justify-content: center;
+    background-color: #0D6EFD;
     align-items: center;
-    background-color: rgb(124, 183, 250);
+    justify-content: center;
+    border-radius: 10px;
+    width: 30vh;
 }
 
-table {
-    width: 120ch;
+.tabela-titulo h3 {
+    margin-bottom: 0px;
+    color: white;
+}
+
+.home-page {
+    margin-top: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    gap: 10px;
+}
+
+.home-page h3 {
+    margin-bottom: 0px;
 }

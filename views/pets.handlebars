@@ -1,12 +1,15 @@
-<div class="items">
-    <h1>Pets no Hotel:</h1>
-    <div class="pets-container">
-        <table class="table-data">
+<div class="items-table">
+    <div class="tabela-titulo">
+        <h3>Pets no Hotel</h3>
+    </div>
+    <div >
+        <table class="table table-sm table-hover align-middle">
             <thead>
                 <tr>
-                    <th>ID</th>
-                    <th>Nome do Dono</th>
-                    <th>Nome do Pet</th>
+                    <th scope="col">ID</th>
+                    <th scope="col" style="width: 60vh;">Nome do Dono</th>
+                    <th scope="col" style="width: 60vh;">Nome do Pet</th>
+                    <th scope="col">Opções</th>
                 </tr>
             </thead>
             <tbody>
@@ -14,10 +17,15 @@
                     <tr>
                         <td>{{this.id}}</td>
                         <td>{{this.nomeDono}}</td>
-                        <td><a href="/pets/{{this.id}}">{{this.nomePet}}</a></td>
+                        <td>{{this.nomePet}}</td>
+                        <td>
+                            <a class="btn btn-primary" href="/pets/{{this.id}}">Visualizar</a>
+                            <a class="btn btn-secondary" href="">Editar</a>
+                            <a class="btn btn-danger" href="">Apagar</a></td>
                     </tr>
                 {{/each}}
             </tbody>
         </table>
     </div>
 </div>
+
