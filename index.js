@@ -76,6 +76,6 @@ app.get('/pets/:id', function (request, response) {
     response.render('pet', {pet})
 })
 
-app.listen(3000, () => {
-    console.log("Aplicação rodando na porta 3000")
+app.listen(process.env.PORT || 5000, () => {
+    console.log("Aplicação rodando na porta 5000")
 })
